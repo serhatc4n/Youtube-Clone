@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Left */
+
+.header-container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #202020;
+  border-bottom: 1px solid #373737;
+}
+
+.logo {
+  display: flex;
+}
+
+.youtube-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.youtube-logo img {
+  width: 30px;
+  height: 20px;
+  cursor: pointer
+}
+
+.logo > span {
+  font-size: 25px;
+  color:white;
+  cursor: pointer;
+}
+
+.youtube-text {
+  font-size: 20px;
+  margin-left: 5px;
+  color:#fff;
+  cursor: pointer
+}
+
+.youtube-text:after{
+  content:"TR";
+  font-size: 10px;
+  position: absolute;
+  margin-left: 5px;
+}
+
+/* Navbar Mid Search */
+
+.navbar-search-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-search-input input {
+  width: 600px;
+  height: 40px;
+  border: 1px solid #303030;
+  background-color: #121212;
+  font-size: 16px;
+  color:#fff;
+  padding: 10px;
+}
+
+.navbar-search-input input::placeholder {
+  padding: 10px;
+}
+
+.navbar-search-input input:focus {
+  outline: 1px solid blue;
+}
+
+.search-button {
+  background-color: #313131;
+  padding: 7px 20px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.top-icons {
+  cursor: pointer;
+  font-size: 15px;
+  margin:0 10px;
+  color:white;
+}
+
+.profile-picture {
+  position: relative;
+  top: 3px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Left Side  */
+
+.section-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.section-container .left-side-container {
+  background-color: #212121;
+  height: 100%;
+}
+
+.section-container .left-side {
+  width: 220px;
+  margin-left: 27px;
+}
+
+.section-container .left-side div {
+  display: flex;
+  align-items: center;
+  color:#fff;
+  margin-top: 15px;
+}
+
+.left-side .text {
+  margin-left: 20px;
+}
+
+.border-bottom {
+  padding: 10px 0;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #383838;
+}
+
+.left-side div:hover {
+  cursor: pointer;
+}
+
+/* Section Mid Menu */
+
+.section-container .top-menu-all {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.top-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #383838;
+  border-top: 1px solid #383838;
+  padding: 15px 0;
+}
+
+.top-menu span {
+  color:#fff;
+  background-color: #373737;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.top-menu span:hover {
+  background-color: #535353;
+}
+
+.top-menu a:hover {
+  background-color: #535353;
+}
+
+.top-menu a {
+  color:#fff;
+  background-color: #373737;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.top-menu span:first-child {
+  background-color: #fff;
+  color:#848484;
+}
+
+/* Section Videos Menu */
+
+.section-container .videos {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+
+.videos-container {
+  background-color: #181818;
+  padding-bottom:300px;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 10px;
+}
+
+.video-content span {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+  color:#fff;
+  cursor: pointer;
+}
+
+.video-content img {
+  width: 350px;
+  cursor: pointer;
+}
+
+.video-content p {
+  margin: 3px 0;
+  cursor: pointer;
+}
+
+
+.channel-pic {
+  width: 40px !important;
+  border-radius: 50%;
+  margin-right: 10px; 
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.watch {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px !important;
+  color:#868686;
+}
